@@ -5,6 +5,13 @@ html {
 .swiper-container {
   width: 100%;
 }
+ul {
+  list-style: none;
+}
+
+ul li {
+  color: #206bc4 !important;
+}
 
 .swiper-slide {
   display: flex;
@@ -36,6 +43,21 @@ html {
   transform: translateX(0);
 }
 
+/*TEXT */
+
+.text-thungo {
+  font-weight: 200; 
+  font-style: italic;
+  line-height: 1.5; 
+  text-indent: 50px; 
+  text-align: justify;
+}
+
+.text-sanpham {
+  font-weight: 400; 
+  line-height: 1.5;
+  text-align: justify;
+}
 /**/
 
 .component {
@@ -125,7 +147,7 @@ html {
 /* TOP TO BOTTOM ANIMATION*/
 .bottomToTop {
   opacity: 0;
-  transform: translateY(100px); 
+  transform: translateY(100px);
   transition: transform 1.5s ease, opacity 1.5s ease;
 }
 
@@ -152,7 +174,6 @@ html {
   opacity: 0;
   transition: opacity 4s ease, transform 4s ease;
 }
-
 
 .quote .qicon {
   opacity: 0.2;
@@ -395,11 +416,21 @@ html {
 }
 
 @keyframes shake {
-  0% { transform: translateX(0); }
-  25% { transform: translateX(-2px); }
-  50% { transform: translateX(2px); }
-  75% { transform: translateX(-1px); }
-  100% { transform: translateX(0); }
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(2px);
+  }
+  75% {
+    transform: translateX(-1px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 /*** BTN - ĐĂNG KÝ ***/

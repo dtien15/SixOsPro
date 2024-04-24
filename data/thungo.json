@@ -1,0 +1,51 @@
+{
+  "heading": [
+    {
+      "heading1": "Thư Ngỏ",
+      "title": "Phần mềm bệnh viện"
+    },
+    {
+      "heading2": "",
+      "title": ""
+    },
+    {
+      "heading3": "",
+      "title": ""
+    },
+    {
+      "heading4": "",
+      "title": ""
+    },
+    {
+      "heading5": "",
+      "title": ""
+    }
+  ],
+
+  "thuNgoOne": "Lời đầu tiên Ban giám đốc <strong>Công Ty Phần Mềm Vũ Phong</strong> xin gửi lời chào, lời cảm ơn chân thành nhất đến Quý bệnh viện, Phòng khám, Quý bác sĩ, Quý doanh nghiệp, các Anh/Chị/Em đại diện cho các doanh nghiệp, Quý khách hàng và người tiêu dùng đã và đang sử dụng các sản phẩm <strong>Phần mềm quản lý</strong> của <strong>Công Ty Phần Mềm Vũ Phong</strong>, cũng như đang quan tâm đến các sản phẩm phần mềm của chúng tôi. Nhân đây, chúng tôi xin gửi lời chúc thành công tốt đẹp nhất đến tất cả mọi người, chúc mọi người một ngày làm việc vui vẻ.",
+
+  "thuNgoTwo": "Kính thưa Quý khách, Vũ Phong là công ty phần mềm được thành lập từ năm 2007, lĩnh vực kinh doanh chính của chúng tôi là <strong>Phát triển và chuyển giao các giải pháp phần mềm</strong> chuyên về các lĩnh vực Y tế, Quản lý,…",
+
+  "thuNgoThree": "Với kinh nghiệm gần 20 năm phát triển, đặt mục tiêu phát triển: Hợp tác cùng phát triển, lấy chữ tín làm đầu, đặt quyền lợi người tiêu dùng lên trên, chú trọng công tác chăm sóc khách hàng hậu bán hàng, không ngừng học hỏi. Công Ty Phần Mềm Vũ Phong đã phát triển và triển khai thành công nhiều dự án phần mềm cho trên 500 doanh nghiệp và người tiêu dùng trong cả nước.",
+
+  "thuNgoFour": "Tính đến hôm nay, Vũ Phong vẫn trên đà phát triển và tiếp tục mở rộng, Các sản phẩm phần mềm quản lý của Vũ Phong hiện đang được khách hàng tín nhiệm như:",
+
+  "thuNgoFive": "Bên cạnh các sản phẩm phần mềm đang được khách hàng tín nhiệm trên. Vũ Phong còn tư vấn thiết kế các giải pháp phần mềm quản lý khác theo yêu cầu riêng của từng doanh nghiệp, Nhận thiết kế website, Lập trình mobile app.",
+
+  "thuNgoSix": "Với phương châm: Hợp tác cùng phát triền, chúng tôi luôn luôn không ngừng cố gắng để tiếp tục đồng hành cùng Quý khách hàng cũ, mong muốn được hợp tác với nhiều khách hàng mới để cùng mang lại giá trị gia tăng cho cả hai.",
+
+  "slides": [
+    {
+      "image": "./image/Banner/carousel-1.jpg",
+      "title": "SixOs"
+    },
+    {
+      "image": "./image/Banner/carousel-2.jpg",
+      "title": "SixOs"
+    },
+    {
+      "image": "./image/Banner/carousel-2.jpg",
+      "title": "SixOs"
+    }
+  ]
+}

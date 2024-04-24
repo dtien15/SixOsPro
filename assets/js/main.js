@@ -1,13 +1,14 @@
+$(window).on("load", function () {
+  mySwiper.autoplay.start();
+});
+
 // Khởi tạo Swiper
 var mySwiper = new Swiper(".swiper-container", {
   // Tuỳ chỉnh thêm nếu cần
   loop: true, // Quay lại slide đầu tiên sau khi chạm đến slide cuối cùng
   autoplay: {
-    delay: 3000, // Độ trễ giữa các slide (đơn vị là miligiây)
-  },
-  pagination: {
-    el: ".swiper-pagination", // Thanh điều hướng
-    clickable: true, // Cho phép chọn trang bằng click
+    delay: 3000, // Thời gian chờ giữa các slide (miligiây)
+    disableOnInteraction: false, // Ngưng autoplay khi người dùng tương tác với slider
   },
 });
 
@@ -223,14 +224,14 @@ document
       email.trim() === "" ||
       request.trim() === ""
     ) {
-      alert("Vui lòng điền đầy đủ thông tin vào các trường yêu cầu.");
-      return; // Dừng xử lý tiếp theo nếu có trường không được điền đầy đủ
+      $(".contactbody").addClass("was-validated");
+      return;
     }
 
     // Kiểm tra định dạng email
     var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailPattern.test(email)) {
-      alert("Vui lòng nhập địa chỉ email hợp lệ.");
+      $(".contactbody").addClass("was-validated");
       return; // Dừng xử lý tiếp theo nếu email không hợp lệ
     }
 
@@ -249,7 +250,17 @@ document
       })
       .then(
         function (response) {
-          alert("Email đã được gửi thành công!");
+          $("#modal-thankyou").modal("show");
+
+          // Xoá class modal và modal-open khi gửi thành công
+          var modal = document.querySelector(".modal-register--demo");
+          var body = document.querySelector("body");
+          modal.classList.remove("show");
+          modal.setAttribute("aria-hidden", "true");
+          modal.style.display = "none";
+          body.classList.remove("modal-open");
+          body.style.paddingRight = "0";
+          $(".modal-backdrop").remove();
         },
         function (error) {
           console.log("Gặp lỗi khi gửi email: ", error);
@@ -257,3 +268,36 @@ document
         }
       );
   });
+
+//Scroll 1 2 3 4 5
+// Lắng nghe sự kiện scroll trên cửa sổ
+window.addEventListener("scroll", function () {
+  // Lặp qua mỗi mục trong menu
+  document.querySelectorAll(".side-bar-menu-item").forEach(function (menuItem) {
+    // Lấy id của mục liên kết từ thuộc tính 'data-section'
+    var sectionId = menuItem.getAttribute("data-section");
+    // Lấy phần tử trong trang tương ứng với id của mục liên kết
+    var section = document.getElementById(sectionId);
+    // Nếu phần tử được tìm thấy và nằm trong vùng nhìn thấy
+    if (section && isElementInView(section)) {
+      // Xóa lớp active khỏi tất cả các mục menu
+      document.querySelectorAll(".side-bar-menu-item").forEach(function (item) {
+        item.classList.remove("active");
+      });
+      // Thêm lớp active cho mục menu tương ứng với phần tử đã scroll đến
+      menuItem.classList.add("active");
+    }
+  });
+});
+
+// Kiểm tra xem một phần tử có nằm trong vùng nhìn thấy không
+function isElementInView(el) {
+  var rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <=
+      (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
