@@ -14,7 +14,7 @@ $(document).ready(function () {
 
   function loadDataAndUpdate() {
     $.ajax({
-      url: "/data/thungo.json",
+      url: "./data/thungo.json",
       dataType: "json",
       success: function (data) {
         if (data && Object.keys(data).length !== 0) {
