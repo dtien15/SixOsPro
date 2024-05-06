@@ -106,13 +106,13 @@ $(document).ready(function () {
                     src="${slide.image}"
                     alt="${slide.title}"
                   />
-                  <h4
+                  <h3
                     style="cursor: pointer"
                     class="pt-3 cursor-pointer text-gradient text-primary fw-bolder my-0 card-blog-title"
                     title="${slide.title}"
                   >
                     ${slide.title}
-                  </h4>
+                  </h3>
                   <p class="h5 content px-3 pt-3" style="font-weight: 400; line-height: 1.5;" title="${slide.description}">
                     ${slide.description}
                   </p>
