@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://https://dtien15.github.io/SixOsPro/sitemap.xml
