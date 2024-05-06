@@ -4,11 +4,9 @@ $(window).on("load", function () {
 
 // Khởi tạo Swiper
 var mySwiper = new Swiper(".swiper-container", {
-  // Tuỳ chỉnh thêm nếu cần
-  loop: true, // Quay lại slide đầu tiên sau khi chạm đến slide cuối cùng
   autoplay: {
-    delay: 3000, // Thời gian chờ giữa các slide (miligiây)
-    disableOnInteraction: false, // Ngưng autoplay khi người dùng tương tác với slider
+    delay: 3000,
+    disableOnInteraction: false,
   },
 });
 
@@ -135,70 +133,32 @@ function addPlusSign(element) {
 
 // Testimonial carousel
 
-$(".testimonial-carousel").owlCarousel({
-  autoplay: true,
-  smartSpeed: 1500,
-  center: true,
-  dots: true,
-  loop: true,
-  margin: 0,
-  nav: true,
-  navText: false,
-  responsiveClass: true,
-  responsive: {
-    0: {
-      items: 1,
-    },
-    576: {
-      items: 1,
-    },
-    768: {
-      items: 2,
-    },
-    992: {
-      items: 3,
-    },
-  },
-});
+// $(".testimonial-carousel").owlCarousel({
+//   autoplay: true,
+//   smartSpeed: 1500,
+//   center: true,
+//   dots: true,
+//   loop: true,
+//   margin: 0,
+//   nav: true,
+//   navText: false,
+//   responsiveClass: true,
+//   responsive: {
+//     0: {
+//       items: 1,
+//     },
+//     576: {
+//       items: 1,
+//     },
+//     768: {
+//       items: 2,
+//     },
+//     992: {
+//       items: 3,
+//     },
+//   },
+// });
 
-// document
-//   .getElementById("SixOsBookingDemoBtn")
-//   .addEventListener("click", function (event) {
-//     event.preventDefault(); // Ngăn chặn hành động mặc định của nút submit
-
-//     // Lấy các giá trị nhập vào từ các trường input
-//     var name = document.getElementById("SixOsBookingDemoName").value;
-//     var company = document.getElementById("SixOsBookingDemoCompany").value;
-//     var taxCode = document.getElementById("SixOsBookingDemoTaxCode").value;
-//     var address = document.getElementById("SixOsBookingDemoAddress").value;
-//     var phone = document.getElementById("SixOsBookingDemoPhone").value;
-//     var email = document.getElementById("SixOsBookingDemoEmail").value;
-//     var request = document.getElementById("SixOsBookingDemoRequest").value;
-//     var note = document.getElementById("SixOsBookingDemoNote").value;
-
-//     // Gửi email thông qua API của email hoặc một dịch vụ email khác
-//     // Ví dụ sử dụng EmailJS
-//     emailjs
-//       .send("service_95izcii", "template_dwctiya", {
-//         name: name,
-//         company: company,
-//         taxCode: taxCode,
-//         address: address,
-//         phone: phone,
-//         email: email,
-//         request: request,
-//         note: note,
-//       })
-//       .then(
-//         function (response) {
-//           alert("Email đã được gửi thành công!");
-//         },
-//         function (error) {
-//           console.log("Gặp lỗi khi gửi email: ", error);
-//           alert("Đã xảy ra lỗi khi gửi email. Vui lòng thử lại sau!");
-//         }
-//       );
-//   });
 
 document
   .getElementById("SixOsBookingDemoBtn")

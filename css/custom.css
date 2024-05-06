@@ -576,7 +576,7 @@ form .dropdown-toggle {
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
-  min-height: 350px;
+  min-height: 600px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -2201,4 +2201,31 @@ a {
 .img-ratio169 {
   aspect-ratio: 16 / 9;
   width: inherit !important;
+}
+
+.icon.iconmenu {
+  height: 30px;
+  width: 30px;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  margin-right: 16px;
+}
+
+#funcdentistarea .icon.iconmenu {
+  background: #005ebf;
+}
+
+#funccosmeticarea .icon.iconmenu {
+  background: #311b92;
+}
+
+#funcclinicarea .icon.iconmenu {
+  background: #1b5e20;
+}
+
+.footeritem.active {
+  opacity: 1 !important;
+}
+.footeritem {
+  opacity: 0.3 !important;
 }

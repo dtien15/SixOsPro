@@ -1,26 +1,7 @@
 {
-  "heading": [
-    {
-      "heading1": "Thư Ngỏ",
-      "title": "Phần mềm bệnh viện"
-    },
-    {
-      "heading2": "",
-      "title": ""
-    },
-    {
-      "heading3": "",
-      "title": ""
-    },
-    {
-      "heading4": "",
-      "title": ""
-    },
-    {
-      "heading5": "",
-      "title": ""
-    }
-  ],
+  "heading-h1": "Thư Ngỏ",
+  "heading-h2": "Sản Phẩm Tiêu Biểu",
+  "heading-h2--2": "Sứ Mệnh Của Công Ty",
 
   "thuNgoOne": "Lời đầu tiên Ban giám đốc <strong>Công Ty Phần Mềm Vũ Phong</strong> xin gửi lời chào, lời cảm ơn chân thành nhất đến Quý bệnh viện, Phòng khám, Quý bác sĩ, Quý doanh nghiệp, các Anh/Chị/Em đại diện cho các doanh nghiệp, Quý khách hàng và người tiêu dùng đã và đang sử dụng các sản phẩm <strong>Phần mềm quản lý</strong> của <strong>Công Ty Phần Mềm Vũ Phong</strong>, cũng như đang quan tâm đến các sản phẩm phần mềm của chúng tôi. Nhân đây, chúng tôi xin gửi lời chúc thành công tốt đẹp nhất đến tất cả mọi người, chúc mọi người một ngày làm việc vui vẻ.",
 
@@ -34,18 +15,140 @@
 
   "thuNgoSix": "Với phương châm: Hợp tác cùng phát triền, chúng tôi luôn luôn không ngừng cố gắng để tiếp tục đồng hành cùng Quý khách hàng cũ, mong muốn được hợp tác với nhiều khách hàng mới để cùng mang lại giá trị gia tăng cho cả hai.",
 
+  "thuNgoDanhSachSP": " <ul><li>Phần mềm quản lý tổng thể bệnh viện – SixOs Hospital</li><li>Phần mềm quản lý phòng khám đa khoa – SixOs General Clinic</li><li>Phần mềm quản lý nha khoa – SixOs Dental Clinic</li><li>Phần mềm quản lý dược – SixOs Pharmacy</li><li>Phần mềm quản lý Labo nha khoa – SixOs Labo of Dental</li><li>Phần mềm quản lý bán hàng – SixOs Commercial</li></ul>",
+
   "slides": [
     {
-      "image": "./image/Banner/carousel-1.jpg",
-      "title": "SixOs"
+      "image": "./image/Banner/Phần mềm quản lý tổng thể bệnh viện - SixOs.jpg",
+      "title": "SixOs - Phần mềm quản lý tổng thể bệnh viện"
     },
     {
-      "image": "./image/Banner/carousel-2.jpg",
-      "title": "SixOs"
-    },
-    {
-      "image": "./image/Banner/carousel-2.jpg",
-      "title": "SixOs"
+      "image": "./image/Banner/Công ty phần mềm vũ phong - SixOs.jpg",
+      "title": "SixOs - Điều bạn cần chúng tôi có"
     }
-  ]
+  ],
+  "product": {
+    "slides": [
+      {
+        "title": "Phần mềm quản lý tổng thể bệnh viện <div><strong>SixOs Hospital</strong></div>",
+        "image": "./image/home-logo/SixOs Hospital.png",
+        "link": "/sixos-san-pham/phan-mem-quan-ly-tong-the-benh-vien.html",
+        "description": ""
+      },
+      {
+        "title": "Phần mềm quản lý phòng khám đa khoa <div><strong>SixOs General Clinic</strong></div>",
+        "image": "./image/home-logo/SixOs General Clinic.png",
+        "link": "/sixos-san-pham/phan-mem-quan-ly-phong-kham-da-khoa.html",
+        "description": ""
+      },
+      {
+        "title": "Phần mềm quản lý nha khoa <div>&nbsp;</div>  <div><strong>SixOs Dental Clinic</strong></div>",
+        "image": "./image/home-logo/SixOs Dental Clinic.png",
+        "link": "/sixos-san-pham/phan-mem-quan-ly-nha-khoa.html",
+        "description": ""
+      },
+      {
+        "title": "Phần mềm quản lý Labo nha khoa <div><strong>SixOs Labo of Dental</strong></div>",
+        "image": "./image/home-logo/SixOs Dental Labo.png",
+        "link": "/sixos-san-pham/phan-mem-quan-ly-labo-nha-khoa.html",
+        "description": ""
+      },
+      {
+        "title": "Phần mềm quản lý dược <div>&nbsp;</div>  <div><strong>SixOs Pharmacy</strong></div>",
+        "image": "./image/home-logo/SixOs Pharmacy.png",
+        "link": "/sixos-san-pham/phan-mem-quan-ly-duoc.html",
+        "description": ""
+      },
+      {
+        "title": "Phần mềm quản lý bán hàng <div>&nbsp;</div>  <div><strong>SixOs Commercial</strong></div>",
+        "image": "./image/home-logo/SixOs Commercial.png",
+        "link": "/sixos-san-pham/phan-mem-quan-ly-ban-hang.html",
+        "description": ""
+      }
+    ]
+  },
+  "logo": {
+    "slides": [
+      {
+        "image": "./image/home/logo-nevada-h-35.svg",
+        "title": "Logo Nevada",
+        "alt": "Logo Nevada"
+      },
+      {
+        "image": "./image/home/logo-tamduc-h-35.svg",
+        "title": "Logo Tam Duc",
+        "alt": "Logo Tam Duc"
+      },
+      {
+        "image": "./image/home/logo-taythi-h-35.svg",
+        "title": "Logo Tay Thi",
+        "alt": "Logo Tay Thi"
+      },
+      {
+        "image": "./image/home/logo-sohee-h-35.svg",
+        "title": "Logo Sohee",
+        "alt": "Logo Sohee"
+      },
+      {
+        "image": "./image/home/logo-keangnam-h-35.svg",
+        "title": "Logo Keangnam",
+        "alt": "Logo Keangnam"
+      },
+      {
+        "image": "./image/home/logo-peace-h-35.svg",
+        "title": "Logo Peace",
+        "alt": "Logo Peace"
+      },
+      {
+        "image": "./image/home/logo-daisy-h-35.svg",
+        "title": "Logo Daisy",
+        "alt": "Logo Daisy"
+      },
+      {
+        "image": "./image/home/logo-ocare-h-35.svg",
+        "title": "Logo Ocare",
+        "alt": "Logo Ocare"
+      }
+    ]
+  },
+  "Member": {
+    "memberSlides": [
+      {
+        "name": "",
+        "position": "",
+        "image": "./image/Member/Y.jpg",
+        "alt": "Image Alt Text",
+        "comment": ""
+      },
+      {
+        "name": "",
+        "position": "",
+        "image": "./image/Member/c199bd7abe111f4f46006.jpg",
+        "alt": "Image Alt Text",
+        "comment": ""
+      },
+      {
+        "name": "",
+        "position": "",
+        "image": "./image/Member/cdb8d754d43f75612c2e11.jpg",
+        "alt": "Image Alt Text",
+        "comment": ""
+      },
+      {
+        "name": "",
+        "position": "",
+        "image": "./image/Member/ea3e03dc00b7a1e9f8a64.jpg",
+        "alt": "Image Alt Text",
+        "comment": ""
+      },
+      {
+        "name": "",
+        "position": "",
+        "image": "./image/Member/ea3e03dc00b7a1e9f8a64.jpg",
+        "alt": "Image Alt Text",
+        "comment": ""
+      }
+    ]
+  }
+  
 }
