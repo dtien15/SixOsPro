@@ -245,3 +245,10 @@ $(document).ready(function () {
     },
   });
 });
+
+
+//tin tuc 
+
+
+
+// Tự tạo bài viết 
