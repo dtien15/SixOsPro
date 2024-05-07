@@ -104,7 +104,7 @@ $(document).ready(function () {
                     width="180"
                     height="180"
                     src="${slide.image}"
-                    alt="${slide.title}"
+                    alt="${slide.alt}"
                   />
                   <h3
                     style="cursor: pointer"

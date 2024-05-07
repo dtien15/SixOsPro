@@ -33,79 +33,85 @@
         "title": "Phần mềm quản lý tổng thể bệnh viện <div><strong>SixOs Hospital</strong></div>",
         "image": "./image/home-logo/sixos-hospital.webp",
         "link": "/sixos-san-pham/phan-mem-quan-ly-tong-the-benh-vien.html",
-        "description": ""
+        "description": "",
+        "alt": "phần mềm quản lý tổng thể bệnh viện"
       },
       {
         "title": "Phần mềm quản lý phòng khám đa khoa <div><strong>SixOs General Clinic</strong></div>",
         "image": "./image/home-logo/sixos-general-clinic.webp",
         "link": "/sixos-san-pham/phan-mem-quan-ly-phong-kham-da-khoa.html",
-        "description": ""
+        "description": "",
+        "alt": "phần mềm quản lý phòng khám đa khoa"
       },
       {
         "title": "Phần mềm quản lý nha khoa <div>&nbsp;</div>  <div><strong>SixOs Dental Clinic</strong></div>",
         "image": "./image/home-logo/sixos-dental-clinic.webp",
         "link": "/sixos-san-pham/phan-mem-quan-ly-nha-khoa.html",
-        "description": ""
+        "description": "",
+        "alt": "phần mềm quản lý nha khoa"
       },
       {
         "title": "Phần mềm quản lý Labo nha khoa <div><strong>SixOs Labo of Dental</strong></div>",
         "image": "./image/home-logo/sixos-dental-labo.webp",
         "link": "/sixos-san-pham/phan-mem-quan-ly-labo-nha-khoa.html",
-        "description": ""
+        "description": "",
+        "alt": "phần mềm quản lý Labo nha khoa"
       },
       {
         "title": "Phần mềm quản lý dược <div>&nbsp;</div>  <div><strong>SixOs Pharmacy</strong></div>",
         "image": "./image/home-logo/sixos-pharmacy.webp",
         "link": "/sixos-san-pham/phan-mem-quan-ly-duoc.html",
-        "description": ""
+        "description": "",
+        "alt": "phần mềm quản lý dược"
       },
       {
         "title": "Phần mềm quản lý bán hàng <div>&nbsp;</div>  <div><strong>SixOs Commercial</strong></div>",
         "image": "./image/home-logo/sixos-commercial.webp",
         "link": "/sixos-san-pham/phan-mem-quan-ly-ban-hang.html",
-        "description": ""
+        "description": "",
+        "alt": "phần mềm quản lý bán hàng"
       }
     ]
   },
   "logo": {
     "slides": [
       {
-        "image": "./image/home/logo-nevada-h-35.svg",
+        "image": "",
         "title": "Logo Nevada",
         "alt": "Logo Nevada"
       },
       {
-        "image": "./image/home/logo-tamduc-h-35.svg",
+        "image": "",
         "title": "Logo Tam Duc",
         "alt": "Logo Tam Duc"
       },
       {
-        "image": "./image/home/logo-taythi-h-35.svg",
+        "image": "",
         "title": "Logo Tay Thi",
         "alt": "Logo Tay Thi"
       },
       {
-        "image": "./image/home/logo-sohee-h-35.svg",
+        "image": "",
         "title": "Logo Sohee",
         "alt": "Logo Sohee"
       },
       {
-        "image": "./image/home/logo-keangnam-h-35.svg",
+        "image": "",
         "title": "Logo Keangnam",
         "alt": "Logo Keangnam"
       },
       {
-        "image": "./image/home/logo-peace-h-35.svg",
+        "image": "",
         "title": "Logo Peace",
         "alt": "Logo Peace"
       },
       {
-        "image": "./image/home/logo-daisy-h-35.svg",
+        "image": "",
         "title": "Logo Daisy",
         "alt": "Logo Daisy"
       },
       {
-        "image": "./image/home/logo-ocare-h-35.svg",
+        "image": "",
         "title": "Logo Ocare",
         "alt": "Logo Ocare"
       }

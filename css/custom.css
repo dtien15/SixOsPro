@@ -914,9 +914,9 @@ hr.style-eight {
 .dropdown-menu .dropdown-item:hover,
 .dropdown-menu .dropdown-item:focus,
 .dropdown-menu .dropdown-item:active {
-  box-shadow: 0 14px 26px -12px rgb(233 30 99 / 42%),
+  box-shadow: 0 14px 26px -12px #fff,
     0 4px 23px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(233 30 99 / 20%) !important;
-  background-color: #ea2c6d !important;
+  background-color: #153ead  !important;
 }
 
 /*.dropdown-menu.dropdown-menu-custom{
@@ -927,7 +927,7 @@ hr.style-eight {
 .dropdown-menu.dropdown-menu-custom .dropdown-item:active {
   box-shadow: none !important;
   background-color: transparent !important;
-  color: #ea2c6d !important;
+  color: #153ead  !important;
 }
 
 #MasterBackToTop {

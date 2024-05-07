@@ -48,28 +48,7 @@ var swiper = new Swiper(".swiper-container2", {
   },
 });
 
-//Scroll
-// Kiểm tra nếu chiều rộng của màn hình nhỏ hơn 768px (giả định là kích thước màn hình điện thoại), ẩn phần tử
-window.addEventListener("resize", function () {
-  var screenWidth = window.innerWidth;
-  var sideBarMenuWrapper = document.querySelector(".side-bar-menu-wrapper");
-  if (screenWidth < 768) {
-    sideBarMenuWrapper.classList.add("show-only-desktop");
-  } else {
-    sideBarMenuWrapper.classList.remove("show-only-desktop");
-  }
-});
 
-// Chạy hàm kiểm tra lúc trang được tải để ẩn hoặc hiện phần tử ban đầu
-window.addEventListener("load", function () {
-  var screenWidth = window.innerWidth;
-  var sideBarMenuWrapper = document.querySelector(".side-bar-menu-wrapper");
-  if (screenWidth < 768) {
-    sideBarMenuWrapper.classList.add("show-only-desktop");
-  } else {
-    sideBarMenuWrapper.classList.remove("show-only-desktop");
-  }
-});
 
 ///Khách hàng tiêu biểu
 
@@ -229,35 +208,3 @@ document
       );
   });
 
-//Scroll 1 2 3 4 5
-// Lắng nghe sự kiện scroll trên cửa sổ
-window.addEventListener("scroll", function () {
-  // Lặp qua mỗi mục trong menu
-  document.querySelectorAll(".side-bar-menu-item").forEach(function (menuItem) {
-    // Lấy id của mục liên kết từ thuộc tính 'data-section'
-    var sectionId = menuItem.getAttribute("data-section");
-    // Lấy phần tử trong trang tương ứng với id của mục liên kết
-    var section = document.getElementById(sectionId);
-    // Nếu phần tử được tìm thấy và nằm trong vùng nhìn thấy
-    if (section && isElementInView(section)) {
-      // Xóa lớp active khỏi tất cả các mục menu
-      document.querySelectorAll(".side-bar-menu-item").forEach(function (item) {
-        item.classList.remove("active");
-      });
-      // Thêm lớp active cho mục menu tương ứng với phần tử đã scroll đến
-      menuItem.classList.add("active");
-    }
-  });
-});
-
-// Kiểm tra xem một phần tử có nằm trong vùng nhìn thấy không
-function isElementInView(el) {
-  var rect = el.getBoundingClientRect();
-  return (
-    rect.top >= 0 &&
-    rect.left >= 0 &&
-    rect.bottom <=
-      (window.innerHeight || document.documentElement.clientHeight) &&
-    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  );
-}
