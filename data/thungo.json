@@ -19,11 +19,11 @@
 
   "slides": [
     {
-      "image": "./image/Banner/Phần mềm quản lý tổng thể bệnh viện - SixOs.jpg",
+      "image": "./image/Banner/phan mem quan ly tong the benh vien - SixOs.webp",
       "title": "SixOs - Phần mềm quản lý tổng thể bệnh viện"
     },
     {
-      "image": "./image/Banner/Công ty phần mềm vũ phong - SixOs.jpg",
+      "image": "./image/Banner/Cong ty phan mem vu phong - SixOs.webp",
       "title": "SixOs - Điều bạn cần chúng tôi có"
     }
   ],
@@ -31,37 +31,37 @@
     "slides": [
       {
         "title": "Phần mềm quản lý tổng thể bệnh viện <div><strong>SixOs Hospital</strong></div>",
-        "image": "./image/home-logo/SixOs Hospital.png",
+        "image": "./image/home-logo/sixos-hospital.webp",
         "link": "/sixos-san-pham/phan-mem-quan-ly-tong-the-benh-vien.html",
         "description": ""
       },
       {
         "title": "Phần mềm quản lý phòng khám đa khoa <div><strong>SixOs General Clinic</strong></div>",
-        "image": "./image/home-logo/SixOs General Clinic.png",
+        "image": "./image/home-logo/sixos-general-clinic.webp",
         "link": "/sixos-san-pham/phan-mem-quan-ly-phong-kham-da-khoa.html",
         "description": ""
       },
       {
         "title": "Phần mềm quản lý nha khoa <div>&nbsp;</div>  <div><strong>SixOs Dental Clinic</strong></div>",
-        "image": "./image/home-logo/SixOs Dental Clinic.png",
+        "image": "./image/home-logo/sixos-dental-clinic.webp",
         "link": "/sixos-san-pham/phan-mem-quan-ly-nha-khoa.html",
         "description": ""
       },
       {
         "title": "Phần mềm quản lý Labo nha khoa <div><strong>SixOs Labo of Dental</strong></div>",
-        "image": "./image/home-logo/SixOs Dental Labo.png",
+        "image": "./image/home-logo/sixos-dental-labo.webp",
         "link": "/sixos-san-pham/phan-mem-quan-ly-labo-nha-khoa.html",
         "description": ""
       },
       {
         "title": "Phần mềm quản lý dược <div>&nbsp;</div>  <div><strong>SixOs Pharmacy</strong></div>",
-        "image": "./image/home-logo/SixOs Pharmacy.png",
+        "image": "./image/home-logo/sixos-pharmacy.webp",
         "link": "/sixos-san-pham/phan-mem-quan-ly-duoc.html",
         "description": ""
       },
       {
         "title": "Phần mềm quản lý bán hàng <div>&nbsp;</div>  <div><strong>SixOs Commercial</strong></div>",
-        "image": "./image/home-logo/SixOs Commercial.png",
+        "image": "./image/home-logo/sixos-commercial.webp",
         "link": "/sixos-san-pham/phan-mem-quan-ly-ban-hang.html",
         "description": ""
       }
