@@ -18,13 +18,30 @@
     <link rel="canonical" href="https://sixossoft.com/" />
     <link href="./assets/css/materialkit.min.css" rel="stylesheet" />
     <link href="./assets/demo/demo.css" rel="stylesheet" />
+    <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
     <link href="./css/root.min.css" rel="stylesheet" />
     <link href="./css/custom.css?ver=122" rel="stylesheet" />
-    
 
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+
+    <link href="./lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Swiper -->
     <link rel="stylesheet" href="./css/style.css" />
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
 
 
     <!-- Favicon -->
@@ -47,23 +64,272 @@
           });
       })();
     </script>
-
-
-
-
   </head>
   <body class="sidebar-collapse presentation-page">
     <!-- HEADER -->
 
-    <div id="header-placeholder"></div>
-
-    <script>
-      fetch('./header.html')
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById('header-placeholder').innerHTML = data;
-        });
-    </script>
+    <nav
+    class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg mt-0"
+    color-on-scroll="50"
+    id="sectionsNav"
+    >
+    <div class="container p-0">
+      <div class="navbar-translate">
+        <a class="align-items-center d-flex navbar-brand p-0" href="./">
+          <img src="./image/Logo/ty1-01.svg" alt="SixOs - Công ty công nghệ và giải pháp phần mềm" class="h-100" />
+        </a>
+        <button class="navbar-toggler" type="button" href="#collapseMenu">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <div class="nav-item ml-xl-4">
+          <a href="./" class="nav-link"> <i style="font-size: larger;" class="bi bi-house-fill"></i> </a>
+        </div> 
+        <ul class="navbar-nav">
+          <li class="dropdown nav-item nav-hover">
+            <a
+              href="#"
+              class="dropdown-toggle nav-link dropdown-hover nav-hover--shake"
+              data-toggle="dropdown"
+            >
+              Sản phẩm
+            </a>
+            <div class="dropdown-menu dropdown-menu-custom">
+              <a href="/sixos-san-pham/phan-mem-quan-ly-tong-the-benh-vien.html" class="dropdown-item dropdowntitle nav-hover--shake" 
+                >Phần mềm quản lý tổng thể bệnh viện </a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                href="/sixos-san-pham/phan-mem-quan-ly-phong-kham-da-khoa.html"
+                class="dropdown-item dropdowntitle nav-hover--shake"
+                >Phần mềm quản lý phòng khám đa khoa </a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                href="/sixos-san-pham/phan-mem-quan-ly-nha-khoa.html"
+                class="dropdown-item dropdowntitle nav-hover--shake"
+                >Phần mềm quản lý nha khoa </a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                href="/sixos-san-pham/phan-mem-quan-ly-duoc.html"
+                class="dropdown-item dropdowntitle nav-hover--shake"
+                >Phần mềm quản lý dược  </a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                href="/sixos-san-pham/phan-mem-quan-ly-labo-nha-khoa.html"
+                class="dropdown-item dropdowntitle nav-hover--shake"
+                >Phần mềm quản lý Labo nha khoa  </a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                href="/sixos-san-pham/phan-mem-quan-ly-ban-hang.html"
+                class="dropdown-item dropdowntitle nav-hover--shake"
+                >Phần mềm quản lý bán hàng  </a
+              >
+            </div>
+          </li>
+          <li class="nav-item nav-hover">
+            <a href="./gioiThieu.html" class="nav-link nav-hover--shake"> Giới thiệu </a>
+          </li>
+          <li class="nav-item nav-hover">
+            <a href="./tin-tuc.html" class="nav-link nav-hover--shake"> Tin tức </a>
+          </li>
+          <li class="nav-item nav-hover">
+            <a href="./lien-he.html" class="nav-link nav-hover--shake"> Liên hệ </a>
+          </li>
+        </ul>
+        <div class="button-container nav-item iframe-extern ml-auto d-flex">
+          <a
+            href="tel:0901878896"
+            class="btn btn-rose btn-overrose d-flex btn-round btn-block mx-1"
+          >
+            <i class="fas fa-phone-alt me-2"></i> +84.901878896
+          </a>
+          <a
+            href="#"
+            class="btn btn-rose d-flex btn-round btn-block mx-1 butn butn__new"
+            data-toggle="modal" data-target=".modal-register--demo"
+          >
+            Đăng ký demo
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-mobile" id="collapseMenu">
+      <ul
+        class="navbar-nav navbar-nav-hover ms-auto px-3 border-top border-secondary"
+      >
+        <li class="nav-item dropdown mx-2 mt-3">
+        </li>
+    
+        <li class="nav-item dropdown mx-2">
+          <a
+            role="button"
+            class="nav-link pl-0 d-flex cursor-pointer align-items-center dropdown-toggle"
+            data-toggle="dropdown"
+          >
+            Sản phẩm
+            <div class="ml-auto"></div>
+          </a>
+          <div
+            class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-xl border-radius-xl mt-0 mt-lg-3"
+          >
+            <div class="d-lg-none ps-3 py-2">
+              <a
+                href="/app-khach-hang"
+                class="dropdown-item border-radius-md dropdown-item-mobile m-0"
+              >
+                <span class="ps-2">Phần mềm quản lý tổng thể bệnh viện</span>
+              </a>
+              <a
+                href="/app-khach-hang"
+                class="dropdown-item border-radius-md dropdown-item-mobile m-0"
+              >
+                <span class="ps-2">Phần mềm quản lý phòng khám đa khoa</span>
+              </a>
+              <a
+                href="/app-khach-hang"
+                class="dropdown-item border-radius-md dropdown-item-mobile m-0"
+              >
+              <span class="ps-2">Phần mềm quản lý nha khoa</span>
+              </a>
+              <a
+                href="/app-khach-hang"
+                class="dropdown-item border-radius-md dropdown-item-mobile m-0"
+              >
+              <span class="ps-2">Phần mềm quản lý dược</span>
+              </a>
+              <a
+                href="/app-khach-hang"
+                class="dropdown-item border-radius-md dropdown-item-mobile m-0"
+              >
+                <span class="ps-2">Phần mềm quản lý Labo nha khoa</span>
+              </a>
+              <a
+                href="/app-khach-hang"
+                class="dropdown-item border-radius-md dropdown-item-mobile m-0"
+              >
+                <span class="ps-2">Phần mềm quản lý bán hàng</span>
+              </a>
+            </div>
+          </div>
+          <hr
+            class="bg-light dark my-0 opacity-3 position-relative vertical w-100"
+          />
+        </li>
+    
+    
+        <li class="nav-item dropdown mx-2">
+          <a
+            role="button"
+            class="nav-link pl-0 d-flex cursor-pointer align-items-center dropdown-toggle"
+            data-toggle="dropdown"
+          >
+            Giải Pháp
+            <div class="ml-auto"></div>
+          </a>
+          <div
+            class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-xl border-radius-xl mt-0 mt-lg-3"
+          >
+            <div class="d-lg-none ps-3 py-2">
+              <a
+                href="/app-khach-hang"
+                class="dropdown-item border-radius-md dropdown-item-mobile"
+              >
+                <span class="ps-2">App Khách Hàng</span>
+              </a>
+              <a
+                href="/ung-dung-khach-hang"
+                class="dropdown-item border-radius-md dropdown-item-mobile"
+              >
+                <span class="ps-2">Ứng dụng khách hàng</span>
+              </a>
+              <a
+                href="/cong-khach-hang"
+                class="dropdown-item border-radius-md dropdown-item-mobile d-none"
+              >
+                <span class="ps-2">Cổng Khách Hàng</span>
+              </a>
+            </div>
+          </div>
+          <hr
+            class="bg-light dark my-0 opacity-3 position-relative vertical w-100"
+          />
+        </li>
+        <li class="nav-item dropdown mx-2">
+          <a
+            role="button"
+            class="nav-link pl-0 d-flex cursor-pointer align-items-center dropdown-toggle"
+            data-toggle="dropdown"
+          >
+            Thêm
+            <div class="ml-auto"></div>
+          </a>
+          <div
+            class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-xl border-radius-xl mt-0 mt-lg-3"
+          >
+            <div class="d-lg-none ps-3 py-2">
+              <a
+                href="/tin-tuc.html"
+                class="dropdown-item border-radius-md dropdown-item-mobile"
+              >
+                <span class="ps-2">Tin tức</span>
+              </a>
+              <a
+                href="/ve-chung-toi"
+                class="dropdown-item border-radius-md dropdown-item-mobile"
+              >
+                <span class="ps-2">Về chúng tôi</span>
+              </a>
+              <a
+                href="/trang-khach-hang"
+                class="dropdown-item border-radius-md dropdown-item-mobile"
+              >
+                <span class="ps-2">Khách hàng</span>
+              </a>
+    
+              <a
+                href="/lien-he"
+                class="dropdown-item border-radius-md dropdown-item-mobile"
+              >
+                <span class="ps-2">Liên Hệ</span>
+              </a>
+              <a
+                href="/bao-mat-du-lieu"
+                class="dropdown-item border-radius-md dropdown-item-mobile"
+              >
+                <span class="ps-2">Bảo mật dữ liệu</span>
+              </a>
+            </div>
+          </div>
+          <hr
+            class="bg-light dark my-0 opacity-3 position-relative vertical w-100"
+          />
+        </li>
+        <li class="mx-2 mt-4">
+          <a
+            href="#"
+            data-toggle="modal"
+            style="text-transform: none"
+            data-target=".modal-register--demo"
+            class="btn btnmobile btn-round my-2 mt-lg-0"
+          >
+            Đăng ký demo
+          </a>
+          <a href="" class="btn btnmobile btn-round my-2 mt-lg-0">
+            <i class="fas fa-phone-alt me-2"></i>
+            0901878896
+          </a>
+        </li>
+      </ul>
+    </div>
+    </nav>
     
     <!-- Main -->
     <div class="main">
@@ -88,39 +354,32 @@
             </div>
             
         </div>    -->
-        <div class="container">
-          <div class="mt-4">
-              <h2 class="cat-title mb-3">Marketing</h2>
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="position-relative">
-                          <div class="position-absolute w-100" style="height:3px;">
-                              <hr class="hr1 mt-4 mb-0">
-                          </div>
-                          <div class="position-absolute" style="height:3px; margin-top: -1px;">
-                              <hr class="hr2 mt-4 mb-0">
-                          </div>
-                      </div>
-                  </div>
-              </div>
+        <div class="headerpage1" id="thuNgo" style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: white;
+        ">
+              <div class="container">
+                <div class="mt-5">
+                    <h2 class="title text-center">Tin Tức Về Về SixOs</h2>
+                    <div class="">
+                        <div class="catarea row" id="cat2">
+                            <!-- Các bài viết về marketing sẽ được thêm vào đây thông qua JavaScript -->
+                        </div>
+                    </div>
+            
+                    <div class="row">
+                        <div class="col-md-12 text-center mt-4">
+                            <ul id="pagination" class="pagination">
+                                <!-- Nút phân trang sẽ được thêm vào đây thông qua JavaScript -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
       
-              <div class="">
-                  <div class="catarea row" id="cat2">
-                      <!-- Các bài viết về marketing sẽ được thêm vào đây thông qua JavaScript -->
-                  </div>
-              </div>
-      
-              <div class="row">
-                  <div class="col-md-12 text-center mt-4">
-                      <ul id="pagination" class="pagination">
-                          <!-- Nút phân trang sẽ được thêm vào đây thông qua JavaScript -->
-                      </ul>
-                  </div>
-              </div>
-          </div>
-      </div>
-      
-        
+        </div>
       
 
     </div>
@@ -276,20 +535,28 @@
           </div>
         </div>
     </div>
-    <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
-    <script src="./lib/pagination/pagination.min.js"></script>
+ 
+
     <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
     <script src="./assets/js/core/bootstrap.js"></script>
+    <script
+      src="./assets/js/core/bootstrap-material-design.min.js"
+      type="text/javascript"
+    ></script>
     <script
       src="./assets/js/material-kit.js?v=2.2.1"
       type="text/javascript"
     ></script>
+    <link rel="stylesheet" href="./assets/dist/FontAwesome/css/all.min.css" />
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="./lib/pagination/pagination.min.js"></script>
+    <script src="./lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="./assets/js/animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
     <script src="./js/comon/tintuc.js"></script>
-    
-
-
-    
-
-    
   </body>
 </html>
