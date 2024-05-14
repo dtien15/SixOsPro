@@ -1,3 +1,9 @@
+(function () {
+  emailjs.init({
+    publicKey: "XmPoA__h4o8c2P3YG",
+  });
+})();
+
 $(window).on("load", function () {
   mySwiper.autoplay.start();
 });
@@ -205,7 +211,7 @@ document
       );
   });
 
-// scripts.js
+// loader screen
 
 window.addEventListener("load", function () {
   var loader = document.getElementById("loader-wrapper");

@@ -81,7 +81,7 @@ $(document).ready(function () {
                         <div class="d-none d-sm-block card-image position-relative border-radius-lg">
                             <a href="${article.url}" class="blur-shadow-image text-center">
                                 <div class="colortext">
-                                    <img loading="lazy" src="${article.image}" onerror="Master_OnLoad_Error_Image(this)" class="img image-blog w-100 border-radius-lg img-thumbnail border-0" alt="architecture" loading="lazy">
+                                    <img loading="lazy" src="${article.image}" onerror="Master_OnLoad_Error_Image(this)" class="img image-blog w-100 border-radius-lg img-thumbnail border-0" alt="${article.title}" loading="lazy">
                                 </div>
                             </a>
                         </div>
