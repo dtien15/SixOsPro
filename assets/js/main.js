@@ -48,8 +48,6 @@ var swiper = new Swiper(".swiper-container2", {
   },
 });
 
-
-
 ///Khách hàng tiêu biểu
 
 const counterSection = document.getElementById("counterSection");
@@ -77,7 +75,7 @@ function startCounting() {
   const employeeCount = document.getElementById("employeeCount");
   const projectCount = document.getElementById("projectCount");
 
-  const targetEmployeeCount = 20;
+  const targetEmployeeCount = 15;
   const targetProjectCount = 500;
 
   let currentEmployeeCount = 0;
@@ -137,7 +135,6 @@ function addPlusSign(element) {
 //     },
 //   },
 // });
-
 
 document
   .getElementById("SixOsBookingDemoBtn")
@@ -208,3 +205,12 @@ document
       );
   });
 
+// scripts.js
+
+window.addEventListener("load", function () {
+  var loader = document.getElementById("loader-wrapper");
+  var content = document.getElementById("logo");
+
+  loader.style.display = "none"; // Ẩn loader
+  content.style.display = "block"; // Hiển thị nội dung
+});

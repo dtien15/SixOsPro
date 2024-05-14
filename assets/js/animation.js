@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", function () {
         } else if (effectType === "bottomToTop") {
           title.style.transform = "translateY(0)";
         }
-        
       }
     }
 
@@ -34,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); 
+    handleScroll();
   }
 
   // Chọn class animation
@@ -53,5 +52,3 @@ document.addEventListener("DOMContentLoaded", function () {
   handleScrollEffect(bottomToTopElements, "bottomToTop");
   handleScrollEffect(faceInElements, "fadeIn");
 });
-
-

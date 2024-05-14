@@ -98,7 +98,8 @@ $(document).ready(function () {
             <div class="col-lg-4 swiper-slide position-relative services-item">
               <div class="p-3 text-center">
                 <a href="${slide.link}">
-                    <img                    
+                    <img   
+                    loading="lazy"                 
                     style="cursor: pointer"
                     class="img my-3"
                     width="180"
@@ -145,6 +146,7 @@ $(document).ready(function () {
           var slideHTML = `
             <div class="swiper-slide">
               <img
+                loading="lazy"
                 height="40"
                 class="w-100 img-filter-gray"
                 src="${slide.image}"
@@ -201,7 +203,7 @@ $(document).ready(function () {
               </div>
               <div class="d-flex align-items-center">
                 <div class="">
-                  <img src="${memberSlide.image}" alt="${memberSlide.alt}" />
+                  <img loading="lazy" src="${memberSlide.image}" alt="${memberSlide.alt}" />
                 </div>
               </div>
               <div class="border-top mt-4 pt-3">
@@ -246,9 +248,6 @@ $(document).ready(function () {
   });
 });
 
+//tin tuc
 
-//tin tuc 
-
-
-
-// Tự tạo bài viết 
+// Tự tạo bài viết

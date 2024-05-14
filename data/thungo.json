@@ -122,138 +122,120 @@
       {
         "name": "",
         "position": "",
-        "image": "./image/Member/Y.jpg",
+        "image": "./image/Member/1.jpg",
+        "alt": "alt",
+        "comment": ""
+      },
+      {
+        "name": "",
+        "position": "",
+        "image": "./image/Member/2.jpg",
         "alt": "Image Alt Text",
         "comment": ""
       },
       {
         "name": "",
         "position": "",
-        "image": "./image/Member/c199bd7abe111f4f46006.jpg",
+        "image": "./image/Member/3.jpg",
         "alt": "Image Alt Text",
         "comment": ""
       },
       {
         "name": "",
         "position": "",
-        "image": "./image/Member/cdb8d754d43f75612c2e11.jpg",
+        "image": "./image/Member/4.jpg",
         "alt": "Image Alt Text",
         "comment": ""
       },
       {
         "name": "",
         "position": "",
-        "image": "./image/Member/ea3e03dc00b7a1e9f8a64.jpg",
-        "alt": "Image Alt Text",
-        "comment": ""
-      },
-      {
-        "name": "",
-        "position": "",
-        "image": "./image/Member/ea3e03dc00b7a1e9f8a64.jpg",
+        "image": "./image/Member/5.jpg",
         "alt": "Image Alt Text",
         "comment": ""
       }
     ]
   },
-    "marketingArticles": [
-      {
-        "id": "digital-marketing-spa",
-        "title": "[Chi tiết A-Z] Hướng dẫn Digital Marketing Spa hiệu quả",
-        "image": "./image/Member/Y.jpg",
-        "url": "./chi-tiet-bai-viet.html?id=digital-marketing-spa",
-        "content": "Bài viết dưới đây sẽ hướng dẫn chi tiết các chiến lược Digital Marketing Spa phổ biến mà mỗi chủ Spa, trưởng phòng, quản lý, nhân viên Marketing,... của cơ sở có thể tham khảo áp dụng.",
-        "date": "26-Thg 4-2024"
-      },
-      {
-        "id": "marketing-spa-2024",
-        "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
-        "image": "./image/Member/Y.jpg",
-        "url": "./chi-tiet-bai-viet.html?id=marketing-spa-2024",
-        "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
-        "date": "12-Thg 3-2024"
-      },
-      {
-        "id": "a",
-        "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
-        "image": "./image/Member/c199bd7abe111f4f46006.jpg",
-        "url": "./chi-tiet-bai-viet.html?id=a",
-        "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
-        "date": "12-Thg 3-2024"
-      },
-      {
-        "id": "aabc",
-        "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
-        "image": "./image/Member/cdb8d754d43f75612c2e11.jpg",
-        "url": "./chi-tiet-bai-viet.html?id=aabc",
-        "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
-        "date": "12-Thg 3-2024"
-      },
-      {
-        "id": "a",
-        "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
-        "image": "./image/Member/c199bd7abe111f4f46006.jpg",
-        "url": "./chi-tiet-bai-viet.html?id=a",
-        "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
-        "date": "12-Thg 3-2024"
-      },
-      {
-        "id": "a",
-        "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
-        "image": "./image/Member/c199bd7abe111f4f46006.jpg",
-        "url": "./chi-tiet-bai-viet.html?id=a",
-        "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
-        "date": "12-Thg 3-2024"
-      },
-      {
-        "id": "a",
-        "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
-        "image": "./image/Member/c199bd7abe111f4f46006.jpg",
-        "url": "/chi-tiet-bai-viet.html?id=a",
-        "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
-        "date": "12-Thg 3-2024"
-      },
-      {
-        "id": "a",
-        "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
-        "image": "./image/Member/c199bd7abe111f4f46006.jpg",
-        "url": "./chi-tiet-bai-viet.html?id=a",
-        "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
-        "date": "12-Thg 3-2024"
-      },
-      {
-        "id": "a",
-        "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
-        "image": "./image/Member/c199bd7abe111f4f46006.jpg",
-        "url": "./chi-tiet-bai-viet.html?id=a",
-        "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
-        "date": "12-Thg 3-2024"
-      },
-      {
-        "id": "a",
-        "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
-        "image": "./image/Member/c199bd7abe111f4f46006.jpg",
-        "url": "/chi-tiet-bai-viet.html?id=a",
-        "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
-        "date": "12-Thg 3-2024"
-      },
-      {
-        "id": "a",
-        "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
-        "image": "./image/Member/c199bd7abe111f4f46006.jpg",
-        "url": "./chi-tiet-bai-viet.html?id=a",
-        "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
-        "date": "12-Thg 3-2024"
-      },
-      {
-        "id": "a",
-        "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
-        "image": "./image/Member/ea3e03dc00b7a1e9f8a64.jpg",
-        "url": "./chi-tiet-bai-viet.html?id=a",
-        "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
-        "date": "12-Thg 3-2024"
-      }
-      
-    ]
-   
+  "marketingArticles": [
+    {
+      "id": "digital-marketing-spa",
+      "title": "[Chi tiết A-Z] Hướng dẫn Digital Marketing Spa hiệu quả",
+      "image": "./image/Member/1.jpg",
+      "url": "./chi-tiet-bai-viet.html?id=digital-marketing-spa",
+      "content": "Bài viết dưới đây sẽ hướng dẫn chi tiết các chiến lược Digital Marketing Spa phổ biến mà mỗi chủ Spa, trưởng phòng, quản lý, nhân viên Marketing,... của cơ sở có thể tham khảo áp dụng.",
+      "date": "26-Thg 4-2024"
+    },
+    {
+      "id": "marketing-spa-2024",
+      "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
+      "image": "./image/Member/2.jpg",
+      "url": "./chi-tiet-bai-viet.html?id=marketing-spa-2024",
+      "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
+      "date": "12-Thg 3-2024"
+    },
+    {
+      "id": "a",
+      "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
+      "image": "./image/Member/3.jpg",
+      "url": "./chi-tiet-bai-viet.html?id=a",
+      "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
+      "date": "12-Thg 3-2024"
+    },
+    {
+      "id": "aabc",
+      "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
+      "image": "./image/Member/4.jpg",
+      "url": "./chi-tiet-bai-viet.html?id=aabc",
+      "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
+      "date": "12-Thg 3-2024"
+    },
+    {
+      "id": "aabc",
+      "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
+      "image": "./image/Member/4.jpg",
+      "url": "./chi-tiet-bai-viet.html?id=aabc",
+      "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
+      "date": "12-Thg 3-2024"
+    },
+    {
+      "id": "aabc",
+      "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
+      "image": "./image/Member/4.jpg",
+      "url": "./chi-tiet-bai-viet.html?id=aabc",
+      "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
+      "date": "12-Thg 3-2024"
+    },
+    {
+      "id": "aabc",
+      "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
+      "image": "./image/Member/4.jpg",
+      "url": "./chi-tiet-bai-viet.html?id=aabc",
+      "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
+      "date": "12-Thg 3-2024"
+    },
+    {
+      "id": "aabc",
+      "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
+      "image": "./image/Member/4.jpg",
+      "url": "./chi-tiet-bai-viet.html?id=aabc",
+      "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
+      "date": "12-Thg 3-2024"
+    },
+    {
+      "id": "aabc",
+      "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
+      "image": "./image/Member/4.jpg",
+      "url": "./chi-tiet-bai-viet.html?id=aabc",
+      "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
+      "date": "12-Thg 3-2024"
+    },
+    {
+      "id": "aabc",
+      "title": "Xây dựng kế hoạch Marketing Spa hiệu quả - “Bí quyết” tăng cường doanh số 2024",
+      "image": "./image/Member/4.jpg",
+      "url": "./chi-tiet-bai-viet.html?id=aabc",
+      "content": "Năm 2024 là cơ hội tuyệt vời để các Spa thực hiện đột phá doanh thu và thu hút khách hàng mới. Trong bài viết này, cùng khám phá cách Xây dựng kế hoạch Marketing giúp đột phá doanh thu 2024.",
+      "date": "12-Thg 3-2024"
+    }
+  ]
 }
